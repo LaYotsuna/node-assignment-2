@@ -1,5 +1,27 @@
 {
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "start-server": "node server.js"
+  },
+  "name": "assignment-2",
+  "description": "Second assignment from the Node JS complete guide course. Creating a NodeJS and Express server.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaYotsuna/node-assignment-2.git"
+  },
+  "author": "Larissa Cerqueira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaYotsuna/node-assignment-2/issues"
+  },
+  "homepage": "https://github.com/LaYotsuna/node-assignment-2#readme"
 }
