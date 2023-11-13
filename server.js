@@ -10,7 +10,7 @@ app.use("/", (req, res, next) => {
 
 app.use("/users", (req, res, next) => {
   console.log("You got to the second middleware succesufully");
-  res.send("<h1>You have nmo users yet!</h1>");
+  res.send("<h1>You have no users yet!</h1>");
 });
 
 app.listen(3000);
